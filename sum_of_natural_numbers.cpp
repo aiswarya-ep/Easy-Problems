@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
-    int i;
+   int i,sum;
     cout<<"sum of first 10 natural numbers are:";
     for(i=1;i<=10;i++)
     {
-        cout<<i<<"\n";
+        sum+=i;
+        cout<<sum<<"\n";
     }
-
     return 0;
 }
+
